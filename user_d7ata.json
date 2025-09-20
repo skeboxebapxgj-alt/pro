@@ -3,40 +3,39 @@
         "templates": {},
         "known_chats": {},
         "broadcasting": {
-            "active": true,
-            "step": "awaiting_here",
+            "active": false,
+            "step": "template_pattern",
             "templates": [
                 {
-                    "text": "للبيع 5 اسيا\nدعم\n🔴:130\n🔵:137\n🟢:123\nاكستࢪيم: 4\nميدل ماكس : 35\n\nتواصل : @s_v_lo\nدلائل الثقة @Z_Q_YL",
+                    "text": "حسابات للبيع للتواصل @s_v_lo",
                     "media_path": "media/7881371429_broadcast_1.jpg"
                 }
             ],
             "interval": 30,
-            "groups": [],
-            "last_msg_id": [
-                357
+            "groups": [
+                "channel:1793946917",
+                "channel:1534389955"
             ],
-            "here_groups": []
+            "last_msg_id": []
         },
         "broadcast_status": {
             "is_broadcasting": true,
             "broadcast_type": "groups",
             "sleep_time": 30,
-            "template_pattern": "2",
+            "template_pattern": "1",
             "groups": [
-                "channel:1918455587"
+                "channel:1793946917",
+                "channel:1534389955"
             ],
             "templates": [
                 {
-                    "text": "للبيع 5 اسيا\nدعم\n🔴:130\n🔵:137\n🟢:123\nاكستࢪيم: 4\nميدل ماكس : 35",
+                    "text": "حسابات للبيع للتواصل @s_v_lo",
                     "media_path": "media/7881371429_broadcast_1.jpg"
                 }
             ],
             "group_rotation": {
-                "1918455587": 640,
-                "1534389955": 618,
-                "1793946917": 618,
-                "2319267790": 640
+                "1793946917": 262,
+                "1534389955": 262
             }
         }
     }
